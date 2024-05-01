@@ -20,7 +20,6 @@ def Tracking(model, frame):
                 y1 = int(box.xyxy[0][1]) - 250
                 x2 = int(box.xyxy[0][2]) + 250
                 y2 = int(box.xyxy[0][3]) + 250
-                cv2.rectangle(image,(int(box.xyxy[0][0]),int(box.xyxy[0][1])),(int(box.xyxy[0][2]),int(box.xyxy[0][3])),(255,0,0),(3))
                 if 0 <= x1 and x2 <= w and 0 <= y1 and y2 <= h:
                     pts1 = np.float32([[x1, y1], [x2, y1], [x1, y2], [x2, y2]])
                     pts1_updated = True
