@@ -21,7 +21,7 @@ frame = cv2.VideoCapture("Data2.mp4")
 ```bash
 python main.py
 ```
-3. Stop code
+2. Stop code
 ```bash
 Press the "q" button on the keyboard
 ```
