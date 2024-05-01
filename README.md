@@ -1,8 +1,10 @@
 # SETUP
 ## Install Environment via Anaconda (Recommended)
-> conda create -n FootballTracking python=3.9
-> conda activate FootballTracking 
-> pip install -r requirements.txt
+```bash
+conda create -n FootballTracking python=3.9
+conda activate FootballTracking 
+pip install -r requirements.txt
+```
 ## Train model
 1. Your computer must have a built-in NVIDIA GPU
 2. Install the Pytorch version that matches the CUDA version at the link: https://pytorch.org/
